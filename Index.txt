@@ -1,0 +1,18 @@
+var die = {
+	dieSize: 6,
+	totalRolls: 0,
+	roll: function(){
+		var result = result = Math.ceil(this.dieSize * Math.random());
+		this.totalRolls += 1;
+		return result;
+	}
+	console.log(this);
+};
+
+console.log(die);
+/* console.log(die.roll());
+console.log(die.roll());
+console.log(die.roll());
+console.log(die.roll());
+console.log("totalRolls = " + die.totalRolls); */
+
